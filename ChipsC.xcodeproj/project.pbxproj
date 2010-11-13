@@ -1,0 +1,259 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1CA83A0C128E93E9007B74BB /* CAMERA.CPP in Sources */ = {isa = PBXBuildFile; fileRef = 1CA839FC128E93E9007B74BB /* CAMERA.CPP */; };
+		1CA83A0D128E93E9007B74BB /* PLAYER.CPP in Sources */ = {isa = PBXBuildFile; fileRef = 1CA83A03128E93E9007B74BB /* PLAYER.CPP */; };
+		1CA83A0E128E93E9007B74BB /* POS.CPP in Sources */ = {isa = PBXBuildFile; fileRef = 1CA83A05128E93E9007B74BB /* POS.CPP */; };
+		1CA83A0F128E93E9007B74BB /* TEXTURES.CPP in Sources */ = {isa = PBXBuildFile; fileRef = 1CA83A07128E93E9007B74BB /* TEXTURES.CPP */; };
+		1CA83A10128E93E9007B74BB /* WORLD.CPP in Sources */ = {isa = PBXBuildFile; fileRef = 1CA83A0A128E93E9007B74BB /* WORLD.CPP */; };
+		1CA83A5D128E97AA007B74BB /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CA83A5C128E97AA007B74BB /* GLUT.framework */; };
+		1CA83A5F128E97AA007B74BB /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CA83A5E128E97AA007B74BB /* OpenGL.framework */; };
+		8DD76F650486A84900D96B5E /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 08FB7796FE84155DC02AAC07 /* main.cpp */; settings = {ATTRIBUTES = (); }; };
+		8DD76F6A0486A84900D96B5E /* ChipsC.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = C6859E8B029090EE04C91782 /* ChipsC.1 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		8DD76F690486A84900D96B5E /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 8;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				8DD76F6A0486A84900D96B5E /* ChipsC.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		08FB7796FE84155DC02AAC07 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		1CA839FC128E93E9007B74BB /* CAMERA.CPP */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CAMERA.CPP; sourceTree = "<group>"; };
+		1CA839FD128E93E9007B74BB /* CAMERA.H */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = CAMERA.H; sourceTree = "<group>"; };
+		1CA839FE128E93E9007B74BB /* DATA.H */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = DATA.H; sourceTree = "<group>"; };
+		1CA83A00128E93E9007B74BB /* LEVEL01.DAT */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = LEVEL01.DAT; path = LEVELS/LEVEL01.DAT; sourceTree = "<group>"; };
+		1CA83A01128E93E9007B74BB /* LEVEL02.DAT */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = LEVEL02.DAT; path = LEVELS/LEVEL02.DAT; sourceTree = "<group>"; };
+		1CA83A02128E93E9007B74BB /* PLAYER.BMP */ = {isa = PBXFileReference; lastKnownFileType = image.bmp; path = PLAYER.BMP; sourceTree = "<group>"; };
+		1CA83A03128E93E9007B74BB /* PLAYER.CPP */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PLAYER.CPP; sourceTree = "<group>"; };
+		1CA83A04128E93E9007B74BB /* PLAYER.H */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = PLAYER.H; sourceTree = "<group>"; };
+		1CA83A05128E93E9007B74BB /* POS.CPP */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = POS.CPP; sourceTree = "<group>"; };
+		1CA83A06128E93E9007B74BB /* POS.H */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = POS.H; sourceTree = "<group>"; };
+		1CA83A07128E93E9007B74BB /* TEXTURES.CPP */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TEXTURES.CPP; sourceTree = "<group>"; };
+		1CA83A08128E93E9007B74BB /* TEXTURES.H */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = TEXTURES.H; sourceTree = "<group>"; };
+		1CA83A09128E93E9007B74BB /* Tiles.bmp */ = {isa = PBXFileReference; lastKnownFileType = image.bmp; path = Tiles.bmp; sourceTree = "<group>"; };
+		1CA83A0A128E93E9007B74BB /* WORLD.CPP */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = WORLD.CPP; sourceTree = "<group>"; };
+		1CA83A0B128E93E9007B74BB /* WORLD.H */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = WORLD.H; sourceTree = "<group>"; };
+		1CA83A5C128E97AA007B74BB /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = System/Library/Frameworks/GLUT.framework; sourceTree = SDKROOT; };
+		1CA83A5E128E97AA007B74BB /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+		8DD76F6C0486A84900D96B5E /* ChipsC */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ChipsC; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6859E8B029090EE04C91782 /* ChipsC.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = ChipsC.1; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8DD76F660486A84900D96B5E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CA83A5D128E97AA007B74BB /* GLUT.framework in Frameworks */,
+				1CA83A5F128E97AA007B74BB /* OpenGL.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		08FB7794FE84155DC02AAC07 /* ChipsC */ = {
+			isa = PBXGroup;
+			children = (
+				08FB7795FE84155DC02AAC07 /* Source */,
+				C6859E8C029090F304C91782 /* Documentation */,
+				1AB674ADFE9D54B511CA2CBB /* Products */,
+				1CA83A5C128E97AA007B74BB /* GLUT.framework */,
+				1CA83A5E128E97AA007B74BB /* OpenGL.framework */,
+			);
+			name = ChipsC;
+			sourceTree = "<group>";
+		};
+		08FB7795FE84155DC02AAC07 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				1CA839FC128E93E9007B74BB /* CAMERA.CPP */,
+				1CA839FD128E93E9007B74BB /* CAMERA.H */,
+				1CA839FE128E93E9007B74BB /* DATA.H */,
+				1CA839FF128E93E9007B74BB /* LEVELS */,
+				1CA83A00128E93E9007B74BB /* LEVEL01.DAT */,
+				1CA83A01128E93E9007B74BB /* LEVEL02.DAT */,
+				1CA83A02128E93E9007B74BB /* PLAYER.BMP */,
+				1CA83A03128E93E9007B74BB /* PLAYER.CPP */,
+				1CA83A04128E93E9007B74BB /* PLAYER.H */,
+				1CA83A05128E93E9007B74BB /* POS.CPP */,
+				1CA83A06128E93E9007B74BB /* POS.H */,
+				1CA83A07128E93E9007B74BB /* TEXTURES.CPP */,
+				1CA83A08128E93E9007B74BB /* TEXTURES.H */,
+				1CA83A09128E93E9007B74BB /* Tiles.bmp */,
+				1CA83A0A128E93E9007B74BB /* WORLD.CPP */,
+				1CA83A0B128E93E9007B74BB /* WORLD.H */,
+				08FB7796FE84155DC02AAC07 /* main.cpp */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		1AB674ADFE9D54B511CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8DD76F6C0486A84900D96B5E /* ChipsC */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1CA839FF128E93E9007B74BB /* LEVELS */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = LEVELS;
+			sourceTree = "<group>";
+		};
+		C6859E8C029090F304C91782 /* Documentation */ = {
+			isa = PBXGroup;
+			children = (
+				C6859E8B029090EE04C91782 /* ChipsC.1 */,
+			);
+			name = Documentation;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8DD76F620486A84900D96B5E /* ChipsC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DEB923108733DC60010E9CD /* Build configuration list for PBXNativeTarget "ChipsC" */;
+			buildPhases = (
+				8DD76F640486A84900D96B5E /* Sources */,
+				8DD76F660486A84900D96B5E /* Frameworks */,
+				8DD76F690486A84900D96B5E /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ChipsC;
+			productInstallPath = "$(HOME)/bin";
+			productName = ChipsC;
+			productReference = 8DD76F6C0486A84900D96B5E /* ChipsC */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		08FB7793FE84155DC02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 1DEB923508733DC60010E9CD /* Build configuration list for PBXProject "ChipsC" */;
+			compatibilityVersion = "Xcode 3.1";
+			hasScannedForEncodings = 1;
+			mainGroup = 08FB7794FE84155DC02AAC07 /* ChipsC */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8DD76F620486A84900D96B5E /* ChipsC */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8DD76F640486A84900D96B5E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DD76F650486A84900D96B5E /* main.cpp in Sources */,
+				1CA83A0C128E93E9007B74BB /* CAMERA.CPP in Sources */,
+				1CA83A0D128E93E9007B74BB /* PLAYER.CPP in Sources */,
+				1CA83A0E128E93E9007B74BB /* POS.CPP in Sources */,
+				1CA83A0F128E93E9007B74BB /* TEXTURES.CPP in Sources */,
+				1CA83A10128E93E9007B74BB /* WORLD.CPP in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1DEB923208733DC60010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				INSTALL_PATH = /usr/local/bin;
+				PRODUCT_NAME = ChipsC;
+			};
+			name = Debug;
+		};
+		1DEB923308733DC60010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_MODEL_TUNING = G5;
+				INSTALL_PATH = /usr/local/bin;
+				PRODUCT_NAME = ChipsC;
+			};
+			name = Release;
+		};
+		1DEB923608733DC60010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.6;
+			};
+			name = Debug;
+		};
+		1DEB923708733DC60010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.6;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DEB923108733DC60010E9CD /* Build configuration list for PBXNativeTarget "ChipsC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB923208733DC60010E9CD /* Debug */,
+				1DEB923308733DC60010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DEB923508733DC60010E9CD /* Build configuration list for PBXProject "ChipsC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB923608733DC60010E9CD /* Debug */,
+				1DEB923708733DC60010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 08FB7793FE84155DC02AAC07 /* Project object */;
+}
